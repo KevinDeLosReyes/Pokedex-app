@@ -1,0 +1,84 @@
+.pokedex__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px 30px;    
+    margin-top: 10%;
+}
+
+.pokedex__phrase {
+    font-size: 2em;    
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.pokedex__trainer {
+    color: #E50013;
+}
+
+.pokedex__input {
+    width: 400px;
+    height: 40px;
+    border: 3px solid rgb(0, 0, 0);   
+}
+
+@media only screen and (max-width: 768px) {
+    .pokedex__input {
+        max-width: 200px;         
+    }
+}
+
+.pokedex__button {
+    color: white;
+    background-color: #E50013;
+    border: 3px solid #E50013;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+
+.pokedex__bar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokedex__type option {
+    color: #000000;   
+}
+
+.pokedex__type select {
+    color: #110102;
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
+
+.pokedex__search{
+    display: flex;    
+}
+
+.banner__img {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner__letter {    
+    position: absolute;
+    width: 30%;   
+    top: 0.4em; 
+    cursor: pointer;    
+}
+
+@media only screen and (max-width: 768px) {
+    .banner__letter {                
+        min-width: 200px;              
+    }
+}
+
+.back__btn {
+    position: relative;
+    top: 0;
+    right: 0;
+}

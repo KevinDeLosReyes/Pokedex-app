@@ -1,0 +1,39 @@
+.btn__pag {
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    gap: 40px;    
+    margin-top: 80px;
+    margin-bottom: 80px;    
+}
+
+.btn__num {
+    background-color: #DD1A1A;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 0.8em;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn__nextprev {
+    background-color: #DD1A1A;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.active__pag {
+    background-color: inherit;
+    color: #DD1A1A;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.inactive__pag {
+    border-radius: 0.5em;
+    width: 30px;
+}
